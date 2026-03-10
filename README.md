@@ -15,11 +15,15 @@
 - Docker
 - K3d
 
-## Como utilizar:
+## Como utilizar o projeto:
 
-### Executando o K8S
+### Executando o projeto:
 ```sh
+# Executando o K8S
 kubectl apply -f k8s/deployment.yaml
+
+# Acessando o projeto
+https://localhost:30000
 ```
 
 ### Comandos úteis:
